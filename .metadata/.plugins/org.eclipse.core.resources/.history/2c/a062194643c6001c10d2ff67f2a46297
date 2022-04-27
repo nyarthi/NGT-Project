@@ -1,0 +1,36 @@
+package com.capgemini.atm;
+
+import java.util.Scanner;
+
+import com.capgemini.bank.Bank;
+import com.capgemini.user.User;
+
+public class ATM {
+
+	public static void printUserMenu(User curUser, Scanner sc) {
+
+
+	}
+
+	public static User mainMenuPrompt(Bank theBank, Scanner sc) {
+
+		String userId;
+		String pin;
+		User authUser;
+
+		do {
+
+			System.out.printf("\n\nWelcome to %s\n\n", theBank.getName());
+			System.out.print("Enter user ID:");
+			userId = sc.nextLine();
+			System.out.print("Enter pin: ");
+			pin = sc.nextLine();
+
+			//get user object to correspond with ID and pin combo
+			authUser = theBank.userLogin(userId, pin);
+
+
+		}while();
+	}
+
+}

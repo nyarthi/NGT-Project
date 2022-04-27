@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.capgemini.transaction.Transaction"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.capgemini.bank.Bank"/>
+    <fullyQualifiedTypeName name="com.capgemini.user.User"/>
+    <fullyQualifiedTypeName name="com.capgemini.account.Account"/>
+</qualifiedTypeNameHistroy>

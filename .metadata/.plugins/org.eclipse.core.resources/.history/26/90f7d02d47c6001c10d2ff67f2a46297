@@ -1,0 +1,53 @@
+package com.capgemini.account;
+
+import java.util.ArrayList;
+
+import com.capgemini.bank.Bank;
+import com.capgemini.transaction.Transaction;
+import com.capgemini.user.User;
+
+public class Account {
+
+	/**
+	 * The name of the account.
+	 */
+	private String name;
+
+	/** The account ID number.
+	 */
+
+	private String id;
+
+	/** The User object that owns this account.
+	 * 
+	 */
+	private User holder;
+
+	/** The list of transactions for this account.
+
+	 */
+	private ArrayList<Transaction> transactions;
+
+	public Account(String name, User holder, Bank theBank) {
+
+		//set the account name and holder
+		this.name = name;
+		this.holder = holder;
+
+		// get new account ID
+		this.id = theBank.getNewAccountId();
+
+		// initialize transactions
+		this.transactions = new ArrayList<Transaction>();
+
+
+
+
+	}
+
+	public String getId() {
+		return id;
+	}
+
+
+}
