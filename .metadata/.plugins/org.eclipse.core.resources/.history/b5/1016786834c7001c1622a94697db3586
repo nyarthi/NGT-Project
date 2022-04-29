@@ -78,7 +78,7 @@ public class ATM {
 		// get the account to transfer from
 		do {
 			System.out.printf("Enter the number (1-%d) of the account\n" +
-					"to transfer from: ", theUser.numAccounts());
+					"to transfer from: ");
 			fromAcct = sc.nextInt()-1;
 			if(fromAcct <0 || fromAcct >= theUser.numAccounts()) {
 				System.out.println(" Invalid choice. Please choose 1-5.");
@@ -90,7 +90,7 @@ public class ATM {
 		//get the account to transfer to 
 		do {
 			System.out.printf("Enter the number (1-%d) of the account\n" +
-					"to transfer to: ", theUser.numAccounts());
+					"to transfer to: ");
 			toAcct = sc.nextInt()-1;
 			if(toAcct <0 || toAcct >= theUser.numAccounts()) {
 				System.out.println(" Invalid choice. Please choose 1-5.");	
@@ -130,7 +130,7 @@ public class ATM {
 		// get the account to transfer from
 		do {
 			System.out.printf("Enter the number (1-%d) of the account\n" +
-					"to transfer from: ",theUser.numAccounts());
+					"to transfer from: ");
 			fromAcct = sc.nextInt()-1;
 			if(fromAcct <0 || fromAcct >= theUser.numAccounts()) {
 				System.out.println(" Invalid choice. Please choose 1-5.");
@@ -175,7 +175,7 @@ public class ATM {
 		// get the account to transfer from
 		do {
 			System.out.printf("Enter the number (1-%d) of the account\n" +
-					"to transfer from: ",theUser.numAccounts());
+					"to transfer from: ");
 			toAcct = sc.nextInt()-1;
 			if(toAcct <0 || toAcct >= theUser.numAccounts()) {
 				System.out.println(" Invalid choice. Please choose 1-5.");
