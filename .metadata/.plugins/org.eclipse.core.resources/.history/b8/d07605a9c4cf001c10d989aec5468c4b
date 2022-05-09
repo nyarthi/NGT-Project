@@ -43,7 +43,6 @@ public class ATM {
 			break;
 		case 4: 
 			ATM.transferFunds(theUser, sc);
-			//ADD CURRENCY CONVERSION
 		}
 		//redisplay menu unless quitting
 		if (choice != 5) {
